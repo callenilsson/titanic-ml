@@ -1,0 +1,14 @@
+
+# Start your message with one of the below types,
+# followed by a short description (max 72 chars).
+
+# - fix:        used for functional fixes
+# - feat:       new functionality
+# - test:       test added
+# - refactor:   changes that are not intended to change behaviour in any way
+# - revert:     for reverts of commits
+# - other:      remaining commits
+
+# If breaking change, add "!" after the type.
+# See README.md for more info.
+
