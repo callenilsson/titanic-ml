@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "titanic-ml"
+version = "0.1.0"
+description = "Kaggle ML exercise to predict which passengers survived the Titanic shipwreck."
+authors = ["Calle Nilsson <calle.p.nilsson@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.11"
+numpy = "^1.21.2"
+pandas = "^1.3.2"
+inflection = "^0.5.1"
+scikit-learn = "^0.24.2"
+fastapi = "^0.68.1"
+pydantic = "^1.8.2"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+pytest = "^6.2.4"
+flake8 = "^3.9.2"
+black = "^21.7b0"
+pylama = "^7.7.1"
+coverage = "^5.5"
+bandit = "^1.7.0"
+mccabe = "^0.6.1"
+mypy = "^0.910"
+pylint = "^2.10.2"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+uvicorn = "^0.15.0"
+types-python-dateutil = "^0.1.6"
+
+[tool.black]
+line-length = 88
+
+[tool.coverage.report]
+skip_empty = true
+show_missing = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
