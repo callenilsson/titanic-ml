@@ -1,0 +1,6 @@
+# API consumer token
+export API_TOKEN='put-the-api-token-here'
+
+# Other secrets...
+# If possible, use a keystore in cloud instead to avoid passing around .envrc files
+# across different people
